@@ -16,8 +16,6 @@ Most of what I build is batch data pipelines in Python and SQL, with a lot of at
 
 Python · SQL · dbt · DuckDB · PostgreSQL · Supabase · Parquet · pytest · GitHub Actions · Power BI
 
-Currently learning AWS, Snowflake, and Airflow.
-
 ### Contact
 
-[LinkedIn](https://www.linkedin.com/in/jeffreylin0217) · jlin744@gatech.edu
+[LinkedIn](https://www.linkedin.com/in/jeffreylin0217) · lin.jeffrey17@gmail.com
