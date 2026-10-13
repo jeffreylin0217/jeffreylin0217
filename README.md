@@ -6,9 +6,9 @@ Most of what I build is batch data pipelines in Python and SQL, with a lot of at
 
 ### Projects
 
-**[MetroFlow](https://github.com/jeffreylin0217/metroflow-de)**: incremental pipeline for 24.1M NYC taxi records. It reprocesses only new or changed months using SHA-256 checksums, builds 10 dbt models in DuckDB, and is validated with 38 dbt tests, 21 pytest tests, and GitHub Actions CI.
+**[MetroFlow](https://github.com/jeffreylin0217/metroflow)**: incremental pipeline for 24.1M NYC taxi records. It reprocesses only new or changed months using SHA-256 checksums, builds 10 dbt models in DuckDB, and is validated with 38 dbt tests, 21 pytest tests, and GitHub Actions CI.
 
-**[SleepLift](https://github.com/jeffreylin0217/sleeplift-de)**: Bronze/Silver/Gold ELT pipeline I built for my own sleep, caffeine, workout, and nutrition logs, with idempotent ingestion, a quarantine table for bad rows, and a Streamlit dashboard.
+**[SleepLift](https://github.com/jeffreylin0217/sleeplift)**: Bronze/Silver/Gold ELT pipeline I built for my own sleep, caffeine, workout, and nutrition logs, with idempotent ingestion, a quarantine table for bad rows, and a Streamlit dashboard.
 
 **I2CE VIP research (private repo)**: Undergraduate Researcher on Georgia Tech's I2CE Platform Development team, building a PostgreSQL metadata pipeline for a research file platform shared by 7 project clusters.
 
