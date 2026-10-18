@@ -4,6 +4,11 @@ I study Industrial Engineering at Georgia Tech (Analytics & Data Science, May 20
 
 Most of what I build is batch data pipelines in Python and SQL, with a lot of attention on the parts that make data trustworthy: incremental loads, idempotent ingestion, dimensional models, and automated tests.
 
+<p>
+  <a href="https://github.com/jeffreylin0217/metroflow"><img src="assets/metroflow-card.png" width="49%" alt="MetroFlow: incremental Python and SQL pipeline for 24.1M NYC taxi trips"></a>
+  <a href="https://github.com/jeffreylin0217/sleeplift"><img src="assets/sleeplift-card.png" width="49%" alt="SleepLift: Bronze, Silver, Gold ELT pipeline with a Streamlit dashboard"></a>
+</p>
+
 ### Projects
 
 **[MetroFlow](https://github.com/jeffreylin0217/metroflow)**: incremental pipeline for 24.1M NYC taxi records. It reprocesses only new or changed months using SHA-256 checksums, builds 10 dbt models in DuckDB, and is validated with 38 dbt tests, 21 pytest tests, and GitHub Actions CI.
