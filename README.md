@@ -15,7 +15,7 @@ Most of what I build is batch data pipelines in Python and SQL, with a lot of at
 
 **[SleepLift](https://github.com/jeffreylin0217/sleeplift)**: Bronze/Silver/Gold ELT pipeline I built for my own sleep, caffeine, workout, and nutrition logs, with idempotent ingestion, a quarantine table for bad rows, and a Streamlit dashboard.
 
-**I2CE VIP research (private repo)**: Undergraduate Researcher on Georgia Tech's I2CE Platform Development team, building a PostgreSQL metadata pipeline for a research file platform shared by 7 project clusters.
+**I2CE VIP research (private repo)**: Undergraduate Researcher, Backend & Data Engineering, on Georgia Tech's I2CE VIP team, building a versioned research file platform and PostgreSQL metadata pipeline shared by 7 project clusters.
 
 ### Tools
 
