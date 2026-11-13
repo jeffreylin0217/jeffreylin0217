@@ -1,8 +1,8 @@
 ## Hi, I'm Jeffrey
 
-I study Industrial Engineering at Georgia Tech (Analytics & Data Science, May 2028) and I'm focused on data engineering. I'm looking for a 2027 Data Engineering internship, open to any term.
+I study Industrial Engineering at Georgia Tech (Analytics & Data Science, May 2028) and build backend services and data pipelines in Python, TypeScript, and SQL. I'm looking for a 2027 backend or data engineering internship, open to any term.
 
-Most of what I build is batch data pipelines in Python and SQL, with a lot of attention on the parts that make data trustworthy: incremental loads, idempotent ingestion, dimensional models, and automated tests.
+Most of what I build is backend services and data pipelines, with a lot of attention on the parts that make them trustworthy: safe retries, incremental loads, idempotent ingestion, dimensional models, and automated tests.
 
 <p>
   <a href="https://github.com/jeffreylin0217/metroflow"><img src="assets/metroflow-card.png" width="49%" alt="MetroFlow: incremental Python and SQL pipeline for 24.1M NYC taxi trips"></a>
@@ -15,11 +15,11 @@ Most of what I build is batch data pipelines in Python and SQL, with a lot of at
 
 **[SleepLift](https://github.com/jeffreylin0217/sleeplift)**: Bronze/Silver/Gold ELT pipeline I built for my own sleep, caffeine, workout, and nutrition logs, with idempotent ingestion, a quarantine table for bad rows, and a Streamlit dashboard.
 
-**I2CE VIP research (private repo)**: Undergraduate Researcher, Backend & Data Engineering, on Georgia Tech's I2CE VIP team, building a versioned research file platform and PostgreSQL metadata pipeline shared by 7 project clusters.
+**I2CE VIP research (private repo)**: Undergraduate Researcher, Backend & Data Engineering, on Georgia Tech's I2CE VIP team. I built the upload and access layer of a versioned research file platform for 7 project clusters, plus a PostgreSQL metadata pipeline on a crash safe job queue.
 
 ### Tools
 
-Python · SQL · dbt · DuckDB · PostgreSQL · Supabase · Parquet · pytest · GitHub Actions · Power BI
+Python · TypeScript · SQL · PostgreSQL · Supabase · dbt · DuckDB · Parquet · pytest · GitHub Actions
 
 ### Contact
 
