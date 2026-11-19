@@ -1,8 +1,6 @@
 ## Hi, I'm Jeffrey
 
-I study Industrial Engineering at Georgia Tech (Analytics & Data Science, May 2028) and build backend services and data pipelines in Python, TypeScript, and SQL. I'm looking for a 2027 backend or data engineering internship, open to any term.
-
-Most of what I build is backend services and data pipelines, with a lot of attention on the parts that make them trustworthy: safe retries, incremental loads, idempotent ingestion, dimensional models, and automated tests.
+I study Industrial Engineering at Georgia Tech (Analytics & Data Science, May 2028). I build data pipelines and backend services, and lately, AI on top of them. In every project, most of my time goes into making sure the numbers are right, whether they come from a rerun, a join, or an LLM.
 
 <p>
   <a href="https://github.com/jeffreylin0217/metroflow"><img src="assets/metroflow-card.png" width="49%" alt="MetroFlow: incremental Python and SQL pipeline for 24.1M NYC taxi trips"></a>
@@ -11,7 +9,7 @@ Most of what I build is backend services and data pipelines, with a lot of atten
 
 ### Projects
 
-**[MetroFlow](https://github.com/jeffreylin0217/metroflow)**: incremental pipeline for 24.1M NYC taxi records. It reprocesses only new or changed months using SHA-256 checksums, builds 10 dbt models in DuckDB, and is validated with 38 dbt tests, 21 pytest tests, and GitHub Actions CI.
+**[MetroFlow](https://github.com/jeffreylin0217/metroflow)**: an incremental pipeline for 24.1M NYC taxi records in DuckDB and dbt, with a SQL agent on top. A local LLM answers plain English questions inside read only guardrails, and other agents can reuse the same checked tools through MCP. I compared three models, including IBM Granite, and added a LangGraph review step that pauses for my approval when it's unsure. Everything is tested with 38 dbt tests, 124 pytest tests, and GitHub Actions CI.
 
 **[SleepLift](https://github.com/jeffreylin0217/sleeplift)**: Bronze/Silver/Gold ELT pipeline I built for my own sleep, caffeine, workout, and nutrition logs, with idempotent ingestion, a quarantine table for bad rows, and a Streamlit dashboard.
 
@@ -19,7 +17,7 @@ Most of what I build is backend services and data pipelines, with a lot of atten
 
 ### Tools
 
-Python · TypeScript · SQL · PostgreSQL · Supabase · dbt · DuckDB · Parquet · pytest · GitHub Actions
+Python · SQL · TypeScript · PostgreSQL · Supabase · dbt · DuckDB · Parquet · LangGraph · MCP · Ollama · pytest · GitHub Actions
 
 ### Contact
 
