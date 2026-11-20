@@ -1,6 +1,6 @@
 ## Hi, I'm Jeffrey
 
-I study Industrial Engineering at Georgia Tech (Analytics & Data Science, May 2028). I build data pipelines and backend services, and lately, AI on top of them. In every project, most of my time goes into making sure the numbers are right, whether they come from a rerun, a join, or an LLM.
+I study Industrial Engineering at Georgia Tech (Analytics & Data Science). I mostly build data pipelines, and lately some AI on top of them, and I spend most of my time checking that the numbers come out right.
 
 <p>
   <a href="https://github.com/jeffreylin0217/metroflow"><img src="assets/metroflow-card.png" width="49%" alt="MetroFlow: incremental Python and SQL pipeline for 24.1M NYC taxi trips"></a>
@@ -9,11 +9,11 @@ I study Industrial Engineering at Georgia Tech (Analytics & Data Science, May 20
 
 ### Projects
 
-**[MetroFlow](https://github.com/jeffreylin0217/metroflow)**: an incremental pipeline for 24.1M NYC taxi records in DuckDB and dbt, with a SQL agent on top. A local LLM answers plain English questions inside read only guardrails, and other agents can reuse the same checked tools through MCP. I compared three models, including IBM Granite, and added a LangGraph review step that pauses for my approval when it's unsure. Everything is tested with 38 dbt tests, 124 pytest tests, and GitHub Actions CI.
+**[MetroFlow](https://github.com/jeffreylin0217/metroflow)**: a pipeline for 24.1M NYC taxi trips in Python, DuckDB and dbt. It only reruns the months that changed, and its tests check that the totals tie back to the source. On top is a SQL agent on a local model that can only run read only queries against the final tables. I compared three models on it, including IBM's Granite, and built a separate LangGraph workflow that checks answers about daily totals and asks me when it isn't sure.
 
-**[SleepLift](https://github.com/jeffreylin0217/sleeplift)**: Bronze/Silver/Gold ELT pipeline I built for my own sleep, caffeine, workout, and nutrition logs, with idempotent ingestion, a quarantine table for bad rows, and a Streamlit dashboard.
+**[SleepLift](https://github.com/jeffreylin0217/sleeplift)**: the project that got me into this. A pipeline for my own sleep, caffeine, workout and food logs that rolls everything up to one row per day, sets bad rows aside instead of dropping them, and feeds a small Streamlit dashboard.
 
-**I2CE VIP research (private repo)**: Undergraduate Researcher, Backend & Data Engineering, on Georgia Tech's I2CE VIP team. I built the upload and access layer of a versioned research file platform for 7 project clusters, plus a PostgreSQL metadata pipeline on a crash safe job queue.
+**I2CE research team (private repo)**: on a Georgia Tech VIP research team, I built the upload and access layer of a versioned file platform for 7 project clusters. Uploaded files are processed in the background, so a failed parse never breaks the upload. Built with TypeScript, Next.js and Supabase.
 
 ### Tools
 
